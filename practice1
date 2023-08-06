@@ -1,0 +1,14 @@
+class Deteil:
+    def __init__(self):
+       self.x=10
+       self.b=20
+       self.c=30
+    def variable(self,f,g):
+        self.d=30
+        self.e=40
+        self.f=f
+        self.g=g
+        print(f"the value of d is{self.d}and f is {self.f}and value of a is{self.x}") 
+l=Deteil()    
+print(l.__dict__)
+l.variable(4,7)           
