@@ -1,0 +1,17 @@
+# your.python
+class person:#class ko ese define karte hai
+    name='ajay'
+    section='M.TECH(5th)'
+    location='Indore'
+    def realty(self):#ye function hi h but yaha isko ham method bolenge
+      print(f'{self.name} is in section {self.section}')
+p=person()#ye object ese banta hai
+b=person()
+p.location='bhopal'# ye wali locn tabh hi call hogi jab p wala  obj call karega
+print(p.location)
+print(p.realty())
+p.name='AJJU'
+p.section='M.TECH(4th)'
+p.realty()
+print(p.name)
+print(b.location)#defalt wala le lega jab ham location khud assign nahi karwayenge to
