@@ -1,0 +1,9 @@
+# your.python
+class aadmi:
+    def __init__(self,name,age,k):
+        print(f"{self.age} ka ho gya hai fir bhi karta sirf{self.k}")
+        print("dekh bhai ese mat kara kar yaar")
+        self.name='naam'
+        self.age='umar'
+        self.k='kaam'
+a=aadmi('ajayy',19,'kuch nhi ni')        
