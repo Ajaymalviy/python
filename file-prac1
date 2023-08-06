@@ -1,0 +1,11 @@
+# your.python
+# f = open("C:\Users\PCLP\Desktop\barbad python\topic\of today1\myfile.txt",'r')
+# text=f.read()
+# print(text)
+# f.close()
+f=open('mytxt.py','r')
+while true:
+ line=f.readline()
+ if not line:
+     break
+ print(line)  
