@@ -1,10 +1,9 @@
-# your.python
-in which we have threee phases:
-dict is an attribut while rest of this is is method of instance
-__dir__ se we find how many function which is apply on these particular list or tuple:
+#dict and dir is the method in which we have threee phases:
+#dict is an attribut while rest of this is is method of instance
+#__dir__ se we find how many function which is apply on these particular list or tuple:
    
    lets see:
-   x=[1.2,3,4,5]
-   print('x.__dir__)
-   print(x.__dict__)  it show our all data member of constructor with self
-   print(help(classname)) se us class ki whole information bata dega
+   array=[1.2,3,4,5]
+   print('array.__dir__)
+   print(array.__dict__) # it show our all data member of constructor with self
+   print(help(classname)) #provide all information about this class
