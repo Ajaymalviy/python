@@ -1,12 +1,13 @@
-# your.python
-class person:#class ko ese define karte hai
+#class and object in python
+class Person:#class is define as like that
+#this is all are data members and methods
     name='ajay'
     section='M.TECH(5th)'
     location='Indore'
     def realty(self):#ye function hi h but yaha isko ham method bolenge
       print(f'{self.name} is in section {self.section}')
-p=person()#ye object ese banta hai
-b=person()
+p=Person()#this is objext
+b=Person()
 p.location='bhopal'# ye wali locn tabh hi call hogi jab p wala  obj call karega
 print(p.location)
 print(p.realty())
