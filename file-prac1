@@ -1,5 +1,5 @@
-# your.python
-# f = open("C:\Users\PCLP\Desktop\barbad python\topic\of today1\myfile.txt",'r')
+# how to read lines(words) in file
+users\PCLP\Desktop\bar python\topic\of today1\myfile.txt",'r')
 # text=f.read()
 # print(text)
 # f.close()
